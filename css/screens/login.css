@@ -1,5 +1,5 @@
 .welcome-header {
-  margin: 95px 0px;
+  margin: 130px 0px;
   text-align: center;
   font-weight: 600;
 }
@@ -48,7 +48,5 @@
 }
 #login-form a {
   text-align: center;
-  text-decoration: none;
-  color: inherit;
   font-size: 13px;
 }
