@@ -4,11 +4,15 @@
 /* Components */
 @import "components/status-bar.css";
 @import "components/nav-bar.css";
+@import "components/screen-header.css";
+@import "components/user.css";
 /* Screens */
 @import "screens/login.css";
+@import "screens/friends.css";
 body {
   border: 2px solid;
   width: 400px;
   height: 760px;
+  color: var(--black);
   font-family: "Open Sans", sans-serif;
 }
