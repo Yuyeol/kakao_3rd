@@ -6,7 +6,9 @@
   padding: 20px 45px;
   /* box-sizing: padding때문에 늘어난 원래 길이를 border에 맞게 해줌. */
   box-sizing: border-box;
-  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  border-top: var(--solid-line);
+  /* 요건 나중에 지우자 */
+  border-bottom: var(--solid-line);
 }
 
 .nav__list {
@@ -19,29 +21,14 @@
   position: relative;
 }
 
+.nav__link-clicked {
+  color: var(--yellow);
+}
+
 .nav__push-talk {
-  background-color: rgb(255, 62, 28);
-  color: white;
-  font-size: 12px;
-  font-weight: 600;
-  /* span은 크기 조정 안되므로 display 적용해줘야함. */
-  width: 15px;
-  height: 15px;
-  border-radius: 50%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   position: absolute;
   left: 14px;
   bottom: 15px;
 }
 
-.nav__push-more {
-  background-color: rgb(255, 62, 28);
-  width: 4px;
-  height: 4px;
-  position: absolute;
-  border-radius: 50%;
-  left: 20px;
-  bottom: 18px;
-}
+

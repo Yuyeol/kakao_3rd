@@ -1,0 +1,32 @@
+.badge {
+  background-color: rgb(255, 62, 28);
+  color: white;
+  font-size: 12px;
+  font-weight: 600;
+  /* span은 크기 조정 안되므로 display 적용해줘야함. */
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.badge-sm {
+  background-color: rgb(255, 62, 28);
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+}
+
+.badge-settings {
+  position: absolute;
+  left: 375px;
+  top: 48px;
+}
+
+.nav__push-more {
+  position: absolute;
+  left: 20px;
+  bottom: 18px;
+}
