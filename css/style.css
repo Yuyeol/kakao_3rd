@@ -15,15 +15,28 @@
 @import "screens/find.css";
 @import "screens/more.css";
 @import "screens/settings.css";
+@import "screens/chat-room.css";
+@import "no-mobile.css";
 
 body {
   width: 400px;
   height: 760px;
+  height: 100%;
   color: var(--black);
   font-family: "Open Sans", sans-serif;
-  margin-top: 20px;
+  padding-top: 20px;
+  padding-bottom: 60px;
 }
 
 .main-screen {
   padding: 0px var(--horizontal-space);
+}
+
+.blank {
+  opacity: 0;
+}
+
+button:focus,
+button:active {
+  outline: none;
 }

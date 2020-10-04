@@ -21,14 +21,31 @@
   position: relative;
 }
 
+@keyframes navBtn {
+  0% {
+    trasform: none;
+  }
+  100% {
+    color: var(--yellow);
+  }
+}
+
 .nav__link-clicked {
-  color: var(--yellow);
+  animation: navBtn 0.2s ease-in-out forwards;
+}
+
+@keyframes notification {
+  0% {
+    transform: none;
+  }
+  50% {
+    transform: translateY(3px);
+  }
 }
 
 .nav__push-talk {
   position: absolute;
   left: 14px;
   bottom: 15px;
+  animation: notification 0.5s ease-in-out infinite;
 }
-
-
